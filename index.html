@@ -9,9 +9,28 @@
     <meta property="og:description" content="A practical-minded IT graduate sharing selected work, experience, and what he's learning." />
     <meta property="og:type" content="website" />
     <title>Karl Henrick Cabrera — IT Portfolio</title>
+    <style>
+      body{margin:0;background:#f4f3ed;color:#202820;font:16px/1.7 system-ui,sans-serif}
+      .fallback{max-width:760px;margin:12vh auto;padding:32px 24px}
+      .fallback h1{font-size:clamp(2.8rem,8vw,5.5rem);line-height:1.02;letter-spacing:-.07em;margin:20px 0}
+      .fallback p{color:#687168;max-width:620px}
+      .fallback a{display:inline-block;margin:12px 12px 0 0;padding:12px 17px;background:#315b49;color:white;text-decoration:none;border-radius:3px}
+      .fallback .secondary{background:transparent;color:#315b49;border:1px solid #315b49}
+      .eyebrow{color:#315b49;font-size:.75rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <main class="fallback">
+        <div class="eyebrow">Aviation Information Technology · Class of 2026</div>
+        <h1>Hi, I'm Karl Henrick Cabrera.</h1>
+        <p>I'm an Aviation Information Technology graduate interested in IT support, web development, and making everyday work clearer through technology. My experience includes an academic web system project and an internship at the Manila International Airport Authority.</p>
+        <p>This is a simplified version of my portfolio while the interactive version loads.</p>
+        <a href="mailto:cabrerakarl79@gmail.com">Contact me</a>
+        <a class="secondary" href="/Karl-Cabrera-CV.pdf">View my CV</a>
+      </main>
+    </div>
+    <noscript><p style="padding:24px">JavaScript is disabled. You can still contact Karl at cabrerakarl79@gmail.com.</p></noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
